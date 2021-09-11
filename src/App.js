@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
 
+      {/* hamburger menu component */}
       <Menu width={250} />
 
       <header className="App-header">
