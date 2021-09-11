@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
+
+import Menu from './components/Menu';
 
 function App() {
   return (
     <div className="App">
+
+      <Menu width={250} />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
